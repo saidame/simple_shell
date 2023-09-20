@@ -16,7 +16,7 @@ int main(void)
 
 	while (1)
 	{
-		if (is_interactive && tests(chars_read) == 1)
+		if (is_interactive && shell_tests(chars_read) == 1)
 		{
 			break;
 		}
